@@ -38,6 +38,13 @@ else:
  #4 Function - check_password
  #Create a function named check_password which takes a parameter password.
 
+def check_password(password):
+    if password == 'qwerty':
+        return True
+
+password_result = check_password('qwerty')
+print(password_result)
+
  #The function will return true if the password passed into the function is equal to 'qwerty'. Declare a variable named password_result and print your result.
 
 #5 Function check_login
