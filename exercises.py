@@ -63,6 +63,17 @@ check_login('DevLeague')
 #6 Function malware_type
 #Create a function named malware_type which takes a parameter malware. 
 
+def malware_type(malware):
+    if malware == 'adware':
+        print('Low Threat')
+    elif malware == 'virus':
+        print('Do no share files')
+    else:
+        print('I hope you backed up your data')
+
+type_of = 'virus'
+malware_type(type_of)
+
 #The function will print the following based on the following conditions:
 #if malware is adware: 'Low Threat'
 #if malware is virus: 'Do not share files'
