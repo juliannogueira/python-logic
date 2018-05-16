@@ -15,6 +15,12 @@ if weather == 'rain':
 
 #2 Declare a variable named score and assign it a number value of 70. Next create a conditional statement that will check the score and print 'You pass!' if the score is 70 and above and print 'Study harder!' if the score is less than 70.
 
+score = 70
+if score >= 70:
+    print('You pass!')
+elif score < 70:
+    print('Study harder!')
+
 #3. Declare a variable named download_speed and assign it a data value of 50. Next create a conditional statement that will check the download speed and print the following based on the condition:
 
 # <= 50: 'Basic Package'
