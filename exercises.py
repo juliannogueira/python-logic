@@ -160,6 +160,13 @@ print(ssh_connection)
 #11 Function largest_num
 #Create a function named largest_num which takes three parameters: num_1, num_2 and num_3.
 
+def largest_num(num_1, num_2, num_3):
+    num_list = [num_1, num_2, num_3]
+    return max(num_list)
+    
+large_num_result = largest_num(100, 1000, 1000000)
+print(large_num_result)
+
 #The function will find the largest number among any three numbers that are passed into the function. Declare a variable named large_num_result and print your results.
 
 #12 Function pos_neg
