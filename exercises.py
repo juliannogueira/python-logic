@@ -172,6 +172,17 @@ print(large_num_result)
 #12 Function pos_neg
 #Create a function named pos_neg which takes a parameter num.
 
+def pos_neg(num):
+    if num > 0:
+        print('Positive Number')
+    elif num == 0:
+        print('Zero')
+    else:
+        print('Negative Number')
+
+some_num = -98
+pos_neg(some_num)
+
 #The function will print 'Positive Number' if the number passed in is positive, print 'Zero' if the number is 0 and print 'Negative Number' for a negative number.
 
 #13 Function name_caps
