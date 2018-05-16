@@ -23,6 +23,14 @@ elif score < 70:
 
 #3. Declare a variable named download_speed and assign it a data value of 50. Next create a conditional statement that will check the download speed and print the following based on the condition:
 
+download_speed = 50
+if download_speed <= 50:
+    print('Basic Package')
+elif download_speed <= 100:
+    print('Premium Package')
+else:
+    print('Platinum Package')
+
 # <= 50: 'Basic Package'
 # <=100: 'Premium Package'
 # >100: 'Platinum Package'
