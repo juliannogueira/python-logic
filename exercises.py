@@ -188,6 +188,22 @@ pos_neg(some_num)
 #13 Function name_caps
 #Create a function named name_caps which takes a parameter name.
 
+def name_caps(name):
+    name_len = len(name)
+    if name_len <= 5:
+        name = name.title()
+    elif name_len <= 10:
+        name = name.upper()
+    else:
+        name = name
+    print(name)
+
+my_name = 'julian'
+
+name_caps(my_name)
+
+
+
 #The function will check the number of characters in the name that is passed into the function and do the following:
 
 #if characters in name <=5: capitalize the first letter in the name
