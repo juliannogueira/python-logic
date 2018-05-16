@@ -202,8 +202,6 @@ my_name = 'julian'
 
 name_caps(my_name)
 
-
-
 #The function will check the number of characters in the name that is passed into the function and do the following:
 
 #if characters in name <=5: capitalize the first letter in the name
@@ -213,6 +211,17 @@ name_caps(my_name)
 #Print your results
 
 #14 Function leap_year
+
+def leap_year(year):
+    if year % 4 == 0 and year % 100 != 0:
+        print('The year ' + str(year) + ' is a leap year.')
+    else:
+        print('They year ' + str(year) + ' is not a leap year.')
+
+leap_year(1996)
+leap_year(2000)
+leap_year(2016)
+leap_year(2018)
 
 #A leap year occurs every four years. Every year that is exactly divisible by four is a leap year, except for years that are exactly divisible by 100, but are leap years if they are exactly divisible by 400.
 
