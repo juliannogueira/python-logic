@@ -99,6 +99,22 @@ encryption(some_other_key)
 #8 Function even_cryptography
 #Create a function named even_cryptography which takes a parameter num.
 
+def even_cryptography(num):
+    try:
+        if num % 2 == 0:
+            print('Decryption Success')
+        elif num % 2 == 1:  
+            print('Decryption Fail')
+        else:
+            print('Decryption Super Fail')
+    except:
+        print('Decryption Super Fail')
+
+even_cryptography(17)
+even_cryptography(8)
+even_cryptography(17.5)
+even_cryptography('cat')
+
 #The function will print 'Decryption Success' if the number passed into the function is even and print 'Decryption Fail' if it isn't.
 
 #9 Function bandwidth
